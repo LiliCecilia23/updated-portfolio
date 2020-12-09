@@ -2,23 +2,19 @@ import React from "react";
 import Header from "../Header";
 
 function About () {
-   
-    function goTo (link) {
-        window.open(link, '_blank');
-    };
 
     return (
         <div>
             <Header />
             <div className="row mt-3 mb-5 lato">
-                <div className="mx-5 py-3 container rounded float-left" style="width: fit-content;">
+                <div className="mx-5 py-3 container rounded float-left">
                     <div className="p-3">
                         <img src="../../assets/images/picofme.jpeg" className="rounded-circle" alt="Picture of Lili Clift" />
                     </div>
                     <div className="p-3 text-center">
                         <h1>⟹ Profiles ⟸</h1>
-                        <button type="button" id="gitLink" onClick={this.goTo("https://github.com/LiliCecilia23")} className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
-                        <button type="button" id="liLink" onClick={this.goTo("https://www.linkedin.com/in/lili-clift/")} className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
+                        <button type="button" href="https://github.com/LiliCecilia23" target="_blank" className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
+                        <button type="button" href="https://www.linkedin.com/in/lili-clift/" target="_blank" className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
                     </div> 
                 </div>
 

@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "../Header";
 
-const Contact = () => (
+function Contact (props) {
+  return(
     <div>
+      <Header />
         <div className="container col-md-6 rounded p-3 lato pt-4">
         <div className="row rounded px-3">
           <h1>⟹ Let's Connect ⟸</h1>
@@ -21,6 +24,7 @@ const Contact = () => (
         </div>  
       </div>
     </div>
-);
+  );
+};
 
 export default Contact;
