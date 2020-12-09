@@ -2,8 +2,43 @@
     {
         "title": "Parks_n_Req",
         "description": "This app provides dynamically generated information about Texas NPS parks and campgrounds and allows the user to make a reservation at their selected site.",
-        "repoLink": "",
-        "deployedLink": "",
-        "imagePath": "./images/"
+        "repoLink": "https://github.com/LiliCecilia23/Parks_n_Req",
+        "deployedLink": "salty-hamlet-73070.herokuapp.com/",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547117/portfolio/parks_mrdax7.png"
+    },
+    {
+        "title": "WatchIt",
+        "description": "WatchIt is an app that filters a search for movies & TV shows by what streaming services the user subscribes to and provides direct streaming links to those services.",
+        "repoLink": "https://github.com/LiliCecilia23/WatchIt",
+        "deployedLink": "https://smrodriguez88.github.io/WatchIt/",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547122/portfolio/watchItscreen_fphtnr.png"
+    },
+    {
+        "title": "Work Day Scheduler",
+        "description": "This app uses moment.js to color code the time blocks according to the current hour. The user is able to save events by clicking the lock button.",
+        "repoLink": "https://github.com/LiliCecilia23/work-day-scheduler",
+        "deployedLink": "https://lilicecilia23.github.io/work-day-scheduler/",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547115/portfolio/screenshot1_peg4n0.png"
+    },
+    {
+        "title": "Burger Time",
+        "description": "Using MySQL, node.js, Express, and Handlebars; this app populates a database filled with burgers that the user can dynamically interact with.",
+        "repoLink": "https://github.com/LiliCecilia23/burger",
+        "deployedLink": "https://blooming-refuge-88566.herokuapp.com/",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547113/portfolio/burgersite_ix0fuc.png"
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "This app allows the user to search any city then populates current and future weather information based on data gathered from the OpenWeatherMap API.",
+        "repoLink": "https://github.com/LiliCecilia23/weather-dashboard",
+        "deployedLink": "https://lilicecilia23.github.io/weather-dashboard/",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547114/portfolio/screenshot7_doplj2.png"
+    },
+    {
+        "title": "Management Template",
+        "description": "Using Node.js, this app allows the user to input and change information on a company's employees, departments, and roles. Once the questions are answered, a template displaying this information is generated.",
+        "repoLink": "https://github.com/LiliCecilia23/team-management-template",
+        "deployedLink": "https://github.com/LiliCecilia23/team-management-template",
+        "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547116/portfolio/teamtemplate_xkqbh0.png"
     }
 ]
