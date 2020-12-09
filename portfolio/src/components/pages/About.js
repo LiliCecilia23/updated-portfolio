@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../Header";
+import "../../index.css";
+
 
 function About () {
 
@@ -7,18 +9,18 @@ function About () {
         <div>
             <Header />
             <div className="row mt-3 mb-5 lato">
-                <div className="mx-5 py-3 container rounded float-left">
+                <div className="mx-5 py-3 container rounded float-left" style={{width: "fit-content"}}>
                     <div className="p-3">
-                        <img src="../../assets/images/picofme.jpeg" className="rounded-circle" alt="Picture of Lili Clift" />
+                        <img src="https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547115/portfolio/picofme_cg5f0n.jpg" className="rounded-circle" alt="Lili Clift" />
                     </div>
                     <div className="p-3 text-center">
                         <h1>⟹ Profiles ⟸</h1>
-                        <button type="button" href="https://github.com/LiliCecilia23" target="_blank" className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
-                        <button type="button" href="https://www.linkedin.com/in/lili-clift/" target="_blank" className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
+                        <button type="button" href="https://github.com/LiliCecilia23" target="_blank" rel="noreferrer" className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
+                        <button type="button" href="https://www.linkedin.com/in/lili-clift/" target="_blank" rel="noreferrer" className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
                     </div> 
                 </div>
 
-                <div className="container p-3 rounded col-md-6 float-right text-center">
+                <div className="container p-3 rounded col-md-6 float-right text-center" style={{height: "fit-content"}}>
                     <div className="row">
                         <h1>⟹ About Me ⟸</h1>
                     </div>

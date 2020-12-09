@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import Project from "../Project";
+import "../../index.css";
 
 function Portfolio () {
     return (

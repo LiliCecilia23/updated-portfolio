@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../index.css";
 import Header from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
