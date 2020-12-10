@@ -6,17 +6,13 @@
   margin-top: -10px;
   margin-bottom: 15px;
 }
-
 .navbar {
   background-color: #1C2621;
   border-bottom: dashed 3px white;  
 }
-
-
 .navbar a {
   color: white;
 }
-
 body {
   background-image: url("./assets/images/background.jpg");
   background-color: #cccccc;
@@ -24,31 +20,24 @@ body {
   background-size: cover;
   height: 100%;
 }
-
 .container a {
   color: white;
 }
-
 img {
   border: dashed 3px white;
 }
-
 .lato {
   font-family: 'Lato', sans-serif;
 }
-
 .container {
   margin-top: 110px;
   background-color: rgba(105,115,99,0.7);
   width: fit-content;
   color:white;
-  /* border: solid 5px #888C69; */
 }
-
 .container button {
   background-color: #1C2621;
 }
-
 .container h1 {
   font-family: 'Satisfy', cursive;
   font-size: 30px;
@@ -56,56 +45,45 @@ img {
   margin: auto;
   color: #D9A679;
 }
-
 .card {
   background-color: #D9A679;
 }
-
 .card img {
   height: 150px;
   width: 250px;
 }
-
 .card-title {
   color: #1C2621;
   font-family: 'Satisfy', cursive;
   font-weight: bolder;
   font-size: 25px;
 }
-
 .list-group-item {
   background-color: transparent;
   border-top: 1px solid #ddd;
   border-radius: 0;
   color: #fff;
 }
-
 li i {
   font-size: 25px;
 }
-
 .pink{
   color: #D9A679;
 }
-
 .satisfy {
   font-family: 'Satisfy', cursive;
   font-size: 20px;
 }
-
 .pgraph {
   font-size: 19px;
   font-family: 'lato', sans-serif;
 }
-
 form {
   width: 500px;
 }
-
 .active {
  font-weight: bolder;
 }
-
 .fas {
   position: absolute;
   right: 25px;

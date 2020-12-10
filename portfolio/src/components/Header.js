@@ -1,12 +1,15 @@
 import React from "react";
-import "../index.css";
+import { Link } from "react-router-dom";
+// import "../reset.css";
+// import "../index.css";
+
 
 function Header (props) {
   return (
     <nav className="navbar navbar-expand-md fixed-top p-3">
       
       {/* Name Header */}
-      <h1 className="navbar-brand pl-3">Lili Clift</h1>
+      <h1 className="navbar-brand pl-3" style={{fontSize : "40px", marginTop: "-10px"}}> Lili Clift </h1>
       
       {/* Navbar Toggler */}
       <button className="navbar-toggler bg-light text-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -17,31 +20,32 @@ function Header (props) {
       <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul className="nav">
           <li className="nav-item lato">
-            <a
-              href="#about"
-              onClick={() => props.handlePageChange("About")}
-              className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+            <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
             >
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item lato">
-            <a
-              href="#portfolio"
-              onClick={() => props.handlePageChange("Portfolio")}
-              className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+            <Link
+              to="/portfolio"
+              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-item lato">
-            <a
-              href="#contact"
-              onClick={() => props.handlePageChange("Contact")}
-              className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
+            <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
