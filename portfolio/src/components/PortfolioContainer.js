@@ -10,17 +10,29 @@ class PortfolioContainer extends Component {
     currentPage: "About"
   };
 
+  goTo = event => {
+    event.preventDefault();
+
+    window.open(event.target.attributes.getNamedItem("link").value, '_blank'); 
+  }
+
   handlePageChange = page => {
     this.setState({ currentPage: page });
   };
 
   renderPage = () => {
     if (this.state.currentPage === "About") {
-      return <About />;
+      return <About 
+        goTo={this.goTo}
+      />;
     } else if (this.state.currentPage === "Portfolio") {
-      return <Portfolio />;
+      return <Portfolio 
+      goTo={this.goTo}
+      />;
     } else {
-      return <Contact />;
+      return <Contact 
+      goTo={this.goTo}
+      />;
     }
   };
 

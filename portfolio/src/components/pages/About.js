@@ -3,7 +3,7 @@ import Header from "../Header";
 import "../../index.css";
 
 
-function About () {
+function About (props) {
 
     return (
         <div>
@@ -11,12 +11,12 @@ function About () {
             <div className="row mt-3 mb-5 lato">
                 <div className="mx-5 py-3 container rounded float-left" style={{width: "fit-content"}}>
                     <div className="p-3">
-                        <img src="https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547115/portfolio/picofme_cg5f0n.jpg" className="rounded-circle" alt="Lili Clift" />
+                        <img src="https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547115/portfolio/picofme_cg5f0n.jpg" className="rounded-circle" alt="Lili Clift" style={{border: "dashed 3px white", height: "250px"}} />
                     </div>
                     <div className="p-3 text-center">
                         <h1>⟹ Profiles ⟸</h1>
-                        <button type="button" href="https://github.com/LiliCecilia23" target="_blank" rel="noreferrer" className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
-                        <button type="button" href="https://www.linkedin.com/in/lili-clift/" target="_blank" rel="noreferrer" className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
+                        <button type="button" onClick={props.goTo} link="https://github.com/LiliCecilia23" rel="noreferrer" className="btn btn-outline-light rounded mt-3 mr-3"><i className="fab fa-github mr-1"></i>GitHub</button>
+                        <button type="button" onClick={props.goTo} link="https://www.linkedin.com/in/lili-clift/" rel="noreferrer" className="btn btn-outline-light rounded mt-3"><i className="fab fa-linkedin mr-1"></i>LinkedIn</button>
                     </div> 
                 </div>
 
@@ -34,10 +34,10 @@ function About () {
                                 in that field, so I decided to pursue my interest in coding! 
                             </p>
                             <p className="text-break pgraph">
-                            Since starting the bootcamp, I have worked with HTML5, CSS3, Bootstrap, JavaScript,
-                            node.js, Moment.js, jQuery, MySQL, Sequelize, MongoDB, as well as various web APIs. I have developed
+                            Since starting the bootcamp, I have worked with HTML5, CSS3, React, Bootstrap, JavaScript,
+                            Node, jQuery, MySQL, Sequelize, MongoDB, as well as various web APIs. I have developed
                             applications using all of these technologies, and have recently started some
-                            small freelance projects. I'd love to work with you, 
+                            small freelance projects. I'd love to work with you! 
                             </p>
                         </div>
                     </div>
