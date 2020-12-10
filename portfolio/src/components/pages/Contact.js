@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import pdf from "../../assets/Lili Clift Resume (1) 10.2020.pdf";
 // import "../../index.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,7 +23,7 @@ function Contact (props) {
           <ul className="list-group list-group-flush pr-4">
             <li className="list-group-item"><span className="pink satisfy mr-2">Phone</span> (512) 738 - 3988</li>
             <li className="list-group-item"><span className="pink satisfy mr-2">Email</span> liliclift@gmail.com</li>
-            <li className="list-group-item"><span className="pink satisfy mr-2">Resume</span><a href="../../assets/Lili Clift Resume (1) 10.2020.pdf" target="_blank" rel="noreferrer">Click to View</a></li>
+            <li className="list-group-item"><span className="pink satisfy mr-2">Resume</span><a href={ pdf } target="_blank" rel="noreferrer">Click to View</a></li>
           </ul>
         </div>  
       </div>
