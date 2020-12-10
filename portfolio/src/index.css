@@ -32,7 +32,6 @@ img {
 .container {
   margin-top: 110px;
   background-color: rgba(105,115,99,0.7);
-  width: fit-content;
   color:white;
 }
 .container button {
@@ -46,6 +45,7 @@ img {
   color: #D9A679;
 }
 .card {
+  width: "284px";
   background-color: #D9A679;
 }
 .card img {
