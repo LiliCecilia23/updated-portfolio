@@ -1,16 +1,10 @@
 import React from "react";
-import projects from "../assets/projects.json"
-// import {Image} from 'cloudinary-react';
-// import "../index.css";
-
+import projects from "../assets/projects.json";
 
 function Project () {
     return (
-        
         <div>
-            
-            {projects.map(project => (
-                
+            {projects.map(project => (   
                 <div className="card m-3 p-3" key={project.title} style={{width: "284px", backgroundColor: "#D9A679"}}>
                     <img src={project.imageURL} className="card-img-top rounded-lg" alt="screenshot of app" style={{height: "150px", width: "250px"}} />
                     <div className="card-body pb-3">
@@ -20,8 +14,7 @@ function Project () {
                         <button className="btn btn-outline-light satisfy"><a href={project.repoLink} target="_blank" rel="noreferrer">See the Code</a></button>
                     </div>
                 </div>
-            ))}
-
+            ))};
         </div>
     );
 };
