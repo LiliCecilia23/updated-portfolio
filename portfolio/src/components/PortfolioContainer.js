@@ -5,6 +5,7 @@ import Header from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Footer from "./Footer";
 
 class PortfolioContainer extends Component {
   
@@ -23,6 +24,7 @@ class PortfolioContainer extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Footer />
         </div>
       </Router>
     );

@@ -8,7 +8,7 @@ function About (props) {
         <div>
             <Header />
             <div className="row mt-3 mb-5 lato">
-                <div className="mx-5 py-3 container rounded float-left" style={{width: "fit-content"}}>
+                <div className="mx-5 py-3 container rounded float-left mb-5" style={{width: "fit-content"}}>
                     <div className="p-3">
                         <img src="https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547115/portfolio/picofme_cg5f0n.jpg" className="rounded-circle" alt="Lili Clift" style={{border: "dashed 3px white", height: "250px"}} />
                     </div>
@@ -19,7 +19,7 @@ function About (props) {
                     </div> 
                 </div>
 
-                <div className="container p-3 rounded col-md-6 float-right text-center" style={{height: "fit-content"}}>
+                <div className="container p-3 rounded col-md-6 float-right text-center mb-5" style={{height: "fit-content"}}>
                     <div className="row">
                         <h1>⟹ About Me ⟸</h1>
                     </div>
