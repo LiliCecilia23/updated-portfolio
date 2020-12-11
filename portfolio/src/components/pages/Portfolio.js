@@ -7,8 +7,8 @@ function Portfolio () {
     return (
         <div>
             <Header />
-            <div className="container p-3 mb-5 rounded text-center col-md-10">
-                <div className="text-info pl-3 mb-2">
+            <div className="container p-3 mb-5 rounded text-center mx-auto" style={{width: "fit-content"}}>
+                <div className="mb-2">
                     <h1>⟹ Portfolio ⟸</h1>
                 </div>
                 <Project />

@@ -36,7 +36,7 @@
     },
     {
         "title": "Management Template",
-        "description": "Using Node.js, this app allows the user to input and change information on a company's employees, departments, and roles. Once the questions are answered, a template displaying this information is generated.",
+        "description": "Using Node.js, this app allows the user to input and change employee information, departments, and roles. Once the questions are answered, a template displaying this information is generated.",
         "repoLink": "https://github.com/LiliCecilia23/team-management-template",
         "deployedLink": "https://github.com/LiliCecilia23/team-management-template",
         "imageURL": "https://res.cloudinary.com/dsiaveqw7/image/upload/v1607547116/portfolio/teamtemplate_xkqbh0.png"
